@@ -1,4 +1,18 @@
-TANQUE
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Entrada
+    float v_gaso, v_alcool, m_altura, m_largura, m_prof, total_gaso,  total_alcool,
+    vol_tanque, tudo_misturadinho;
+
+    // DEFINIÇÂO DOS VALORES DOS COMBUSTIVEIS
+    printf("========VALORES DOS COMBUSTIVEIS=============\n");
+    printf("VALOR DO ALCOOL: "); scanf("%f", &v_alcool);
+    printf("VALOR DA GASOLINA: "); scanf("%f", &v_gaso);
+
+    // MEDIDAS DO TANQUE
     printf("\n\n========MEDIDAS DO TANQUE===========\n\n");
     printf("ALTURA DO TANQUE: "); scanf("%f", &m_altura);
     printf("LARGURA DO TANQUE: "); scanf("%f", &m_largura);
